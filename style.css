@@ -1,0 +1,113 @@
+*{
+    margin: 0; /* This property removes the default margin from all elements. */
+    padding: 0; /* This property removes the default margin and padding from all elements. */
+    box-sizing: border-box; /* This property is used to include padding and border in the element's total width and height. */
+}
+body{
+    background-color: #f4f4f4; /* This property sets the background color of the body to a light gray. */
+    color: #333; /* This property sets the text color to a dark gray. */
+}
+header{
+    background-color: #333; /* This property sets the background color of the header to a dark gray. */
+    color: #fff; /* This property sets the text color of the header to white. */
+    padding: 20px ; /* This property adds padding to the header. */
+    display: flex; /* This property makes the header a flex container. */
+    justify-content: space-between; /* This property aligns the items in the header to be spaced evenly. */
+    align-items: center; /* This property aligns the items in the header to be centered vertically. */
+}
+header .logo{
+    font-size: 20px; /* This property sets the font size of the logo to 24 pixels. */
+    font-weight: bold; /* This property makes the logo text bold. */
+}
+header nav ul{
+    list-style: none; /* This property removes the default list style from the navigation menu. */
+    display: flex; /* This property makes the navigation menu a flex container. */
+    gap: 20px; /* This property adds a gap of 20 pixels between the items in the navigation menu. */
+}
+header nav ul li a{
+    color: #fff; /* This property sets the text color of the navigation links to white. */
+    text-decoration: none; /* This property removes the underline from the navigation links. */
+    font-size: 16px; /* This property sets the font size of the navigation links to 16 pixels. */
+}
+header nav ul li a:hover{
+    text-decoration: underline; /* This property adds an underline to the navigation links when hovered over. */
+}
+
+section{
+    padding: 20px;  /* This property adds padding to the section. */
+    text-align: center; /* This property centers the text in the section. */
+}
+.hero{
+    background-color: #0099cc; /* This property sets the background color of the hero section to a blue color. */
+    color: #fff; /* This property sets the text color of the hero section to white. */
+    padding: 50px; /* This property adds padding to the hero section. */
+}
+.hero img{
+    border-radius: 50%; /* This property makes the image circular by setting the border radius to 50%. */
+    width: 150px; /* This property sets the width of the image to 150 pixels. */
+    height: 150px; /* This property sets the height of the image to 150 pixels. */
+}
+.hero h1{
+    margin-top: 20px; /* This property adds a top margin to the heading. */
+    font-size: 24px; /* This property sets the font size of the heading to 24 pixels. */
+}
+button{
+    background-color: #333;  /* This property sets the background color of the button to a dark gray. */
+    color: #fff; /* This property sets the text color of the button to white. */
+    padding: 10px 20px; /* This property adds padding to the button. */
+    border: none; /* This property removes the default border from the button. */
+    border-radius: 20px; /* This property rounds the corners of the button. */
+    cursor: pointer; /* This property changes the cursor to a pointer when hovering over the button. */
+    margin: 10px 0; /* This property adds a top and bottom margin to the button. */;
+}
+button:hover{
+    background-color: #555; /* This property changes the background color of the button to a lighter gray when hovered over. */
+}
+
+.about, .skills, .timeline, .projects, .contact{
+    background-color: #fff;  /* This property sets the background color of the sections to white. */
+    margin-bottom: 20px; /* This property adds a bottom margin to the sections. */
+    border-radius: 8px; /* This property rounds the corners of the sections. */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* This property adds a subtle shadow to the sections. */
+}
+
+.timeline-item{
+    margin: 20px 0; /* This property adds a top and bottom margin to the timeline items. */
+    background-color: #e9e9e9; /* This property sets the background color of the timeline items to a light gray. */
+    padding: 20px; /* This property adds padding to the timeline items. */
+    border-radius: 8px; /* This property rounds the corners of the timeline items. */
+}
+
+.skills ul{
+    list-style: none;  /* This property removes the default list style from the skills list. */
+    display: flex; /* This property makes the skills list a flex container. */
+    flex-wrap: wrap; /* This property allows the items in the skills list to wrap onto multiple lines. */
+    gap: 20px; /* This property adds a gap of 20 pixels between the items in the skills list. */
+    justify-content: center; /* This property centers the items in the skills list. */
+}
+.skills ul li{
+    background-color: #0099cc; /* This property sets the background color of the skills list items to a blue color. */
+    color: #fff; /* This property sets the text color of the skills list items to white. */
+    padding: 10px 20px; /* This property adds padding to the skills list items. */
+    border-radius: 8px; /* This property rounds the corners of the skills list items. */
+}
+
+.project-card{
+    background-color: #e9e9e9;
+    margin: 20px; /* This property adds a margin to the project cards. */;
+    padding: 20px; /* This property adds padding to the project cards. */
+    border-radius: 8px; /* This property rounds the corners of the project cards. */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* This property adds a subtle shadow to the project cards. */
+}
+
+footer{
+    background-color: #333; /* This property sets the background color of the footer to a dark gray. */
+    color: #fff; /* This property sets the text color of the footer to white. */
+    padding: 20px; /* This property adds padding to the footer. */
+    text-align: center; /* This property centers the text in the footer. */
+}
+footer a{
+    color: #fff; /* This property sets the text color of the footer links to white. */
+    text-decoration: none; /* This property removes the underline from the footer links. */
+    margin: 0 10px; /* This property adds a left and right margin to the footer links. */
+}
