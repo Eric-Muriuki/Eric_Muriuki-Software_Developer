@@ -100,6 +100,66 @@ button:hover{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* This property adds a subtle shadow to the project cards. */
 }
 
+.contact {
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #0099cc;
+    box-shadow: 0 0 5px rgba(0, 153, 204, 0.5);
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact button {
+    padding: 12px 20px;
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0077a3;
+}
+
+
 footer{
     background-color: #333; /* This property sets the background color of the footer to a dark gray. */
     color: #fff; /* This property sets the text color of the footer to white. */
